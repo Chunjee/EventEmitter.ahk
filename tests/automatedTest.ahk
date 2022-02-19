@@ -1,6 +1,6 @@
 #Include %A_ScriptDir%
 
-#Include ../EventEmitter.ahk
+#Include ../export.ahk
 
 #Include ./Helper.ahk
 #Include ./EventEmitter.ahk
