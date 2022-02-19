@@ -1,4 +1,4 @@
-class Event
+class event
 {
 	keepPropagation := True
 	__new(ByRef emitter, ByRef data)
@@ -77,7 +77,7 @@ class eventemitter
 			iListeners := this.events[eventName].Length()
 			if(iListeners)
 			{
-				e := new Event(this, data)
+				e := new event(this, data)
 				For i, eventListener in this.events[eventName]
 				{
 					eventListener.listener.Call(e)
