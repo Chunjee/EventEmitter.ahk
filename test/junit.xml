@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites failures="0" tests="19">
+	<testsuite failures="0" tests="19" name="AHK_YUnit">
+		<testcase name="event_was_emitted_with_data" classname="EventEmitter_Test_Suite.emit_events"/>
+		<testcase name="event_was_emitted_without_data" classname="EventEmitter_Test_Suite.emit_events"/>
+		<testcase name="once_listener" classname="EventEmitter_Test_Suite.emit_events"/>
+		<testcase name="addListener" classname="EventEmitter_Test_Suite.event_register"/>
+		<testcase name="on" classname="EventEmitter_Test_Suite.event_register"/>
+		<testcase name="once" classname="EventEmitter_Test_Suite.event_register"/>
+		<testcase name="prependListener" classname="EventEmitter_Test_Suite.event_register"/>
+		<testcase name="prependOnceListener" classname="EventEmitter_Test_Suite.event_register"/>
+		<testcase name="off_with_listener" classname="EventEmitter_Test_Suite.event_remove"/>
+		<testcase name="off_without_listener" classname="EventEmitter_Test_Suite.event_remove"/>
+		<testcase name="remove_event_with_listener" classname="EventEmitter_Test_Suite.event_remove"/>
+		<testcase name="remove_event_without_listener" classname="EventEmitter_Test_Suite.event_remove"/>
+		<testcase name="eventNames" classname="EventEmitter_Test_Suite.extras"/>
+		<testcase name="listenerCount" classname="EventEmitter_Test_Suite.extras"/>
+		<testcase name="emitter_has_events_property" classname="EventEmitter_Test_Suite.initialization"/>
+		<testcase name="emitter_has_propagate_property" classname="EventEmitter_Test_Suite.initialization"/>
+		<testcase name="newListener_event" classname="EventEmitter_Test_Suite.remove_and_new_listener_events"/>
+		<testcase name="removeListener_event" classname="EventEmitter_Test_Suite.remove_and_new_listener_events"/>
+		<testcase name="stop_propagation" classname="Event_Test_Suite"/>
+	</testsuite>
+</testsuites>
